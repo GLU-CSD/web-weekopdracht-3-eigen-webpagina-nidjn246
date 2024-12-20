@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My project title</title>
+    <title>weekopdracht3</title>
     <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+    <script src="https://unpkg.com/scrollreveal"></script>  
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">  
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="CDN library url"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script defer src="main.js"></script>
 </head>
-<body>
-    <h1>Hello world!</h1>
+<body id="body">
+    <div id="header">
+        <h1 class="title animate__animated animate__backInDown">My webpage about the Megamind movies/series</h1>
+    </div>
+    <div>
+        <img id="first" src="/assets/firstpicture.png" alt="">
+        <div id="firsttext">The first movie has a 7,3/10 on <a href="https://www.imdb.com/title/tt1001526/">imdb</a>. I also liked it because the plot was amazing. I have watched it over 6 times now and i know ill watch it again another time.</div>
+</div>
+<div>
+   <img id="second" src="/assets/secondpicture.png" alt="">
+   <div id="secondtext">The second movie was a big flop. It has a 2.4/10 on <a href="https://www.imdb.com/title/tt31122323/">imdb</a> and i also didnt like it. They changed up the animation and the style of how the story is told. I give it a 3/10 because it just isnt it.</div>
+</div>
+<div>
+    <img id="third" src="/assets/thirdpicture.png" alt="">
+    <div id="thirdtext">The serie was even worse according to <a href="https://www.imdb.com/title/tt18214172/">imdb</a>. Having a 2/10 star rating and being lower then the 2nd movie. I liked it more then the 2nd movie. I myself give it a 5/10 because it had a better story/watchlength</div>
+</div>
+    <div id="footer"></div>
 </body>
 </html>
